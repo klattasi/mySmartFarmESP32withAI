@@ -29,7 +29,7 @@ Adafruit_SSD1306 display(SCREEN_W, SCREEN_H, &Wire, OLED_RESET);
 #define PZEM_TIMEOUT_MS 600   // Max wait for response
 
 // ─── Timing ─────────────────────────────────────────────────────────────────
-#define UPDATE_INTERVAL_MS 6000
+#define UPDATE_INTERVAL_MS 4000
 
 // ─── Data ───────────────────────────────────────────────────────────────────
 struct PzemData
